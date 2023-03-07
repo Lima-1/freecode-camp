@@ -1,0 +1,31 @@
+body {
+    background: gray;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+div {
+    background-color: whitesmoke;
+}
+#img-caption {
+    margin-top: 10px;
+    text-align: center;
+}
+li {
+    margin: 1em;
+}
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    display: block;
+}
+p {
+    font-weight: bold;
+}
