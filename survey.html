@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/surveystyles.css">
+</head>
+<body>
+    <h1 id="title">Yaqeen Institute Survey Form</h1>
+    <p id="description">help us improve the content we provide...</p>
+    <form action="https://survey" id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Your Name" value="" required><br>
+        <label id="email-label">Your Email:</label><br>
+        <input type="email" id="email" placeholder="Your Email" value=""  required><br>
+        <label id="number-label">Contact:</label><br>
+        <input type="number" id="number" placeholder="Your Contact" value="" min="0" max="99" required><br>
+        <label id="age-label">Age:</label><br>
+        <input type="number" placeholder="Age" id="age" value="" required><br>
+        <label>Occupation:</label><br>
+        <select name="occupational type" id="dropdown">
+            <option value="select your occupation">select your occupation</option>
+            <option value="student">Student</option>
+            <option value="full-time">Full-time</option>
+            <option value="part-time">Part-time</option><br>
+        </select><br>
+        <legend id="radio">What your most prefered site for viewing our contents?</legend>
+        <label for="youtube">
+            <input type="radio" name="youtube-blog-emails" id="youtube" value="Youtube">Youtube
+        </label><br>
+        <label for="blog">
+            <input type="radio" name="youtube-blog-emails" id="blog" value="Blog">Blog
+        </label><br>
+        <label for="emails">
+            <input type="radio" name="youtube-blog-emails" id="emails" value="Emails">Emails
+        </label><br>
+       
+        <legend id="checkbox">Select the content that inspired you most. (select all that apply)</legend>
+        <label for="series on Aisha R.A">
+            <input type="checkbox" name="judgement day series-the angels-the firsts-series on Aisha R.A-dead heart" id="series on Aisha R.A" value="Series on Aisha R.A">Series on Aisha R.A
+        </label><br>
+        <label for="judgement day">
+            <input type="checkbox" name="judgement day series-the angels-the firsts-series on Aisha R.A-dead heart" id="judgement day" value="Judgement Day">Judgement Day Series
+        </label><br>
+        <label for="the angels">
+            <input type="checkbox" name="judgement day series-the angels-the firsts-series on Aisha R.A-dead heart" id="the angels" value="The Angels">The Angels
+        </label><br>
+        <label for="the firsts">
+            <input type="checkbox" name="judgement day series-the angels-the firsts-series on Aisha R.A-dead heart" id="the firsts" value="The Firsts Series">The Firsts Series
+        </label><br>
+        <label for="dead heart">
+            <input type="checkbox" name="judgement day series-the angels-the firsts-series on Aisha R.A-dead heart" id="dead heart" value="Reviving the dead heart">Reviving the dead heart
+        </label><br>
+       <legend id="comments">Any suggestions on the content?</legend>
+       <label><textarea name="yourSuggestions"  cols="10" rows="2"  id="textarea">Enter your suggestions here</textarea><br></label><br>
+       
+       <button type="submit" id="submit">Submit</button>
+
+        
+        
+       
+
+
+    </form>
+    
+    
+</body>
+</html>
